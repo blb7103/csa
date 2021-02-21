@@ -1,1 +1,4 @@
 account.config
+
+logs
+__pycache__

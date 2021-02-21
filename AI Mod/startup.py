@@ -15,9 +15,7 @@ def start_game():
 
     gs.start()
 
-    
 def fullscreen():
-    print(123)
     window = win32gui.GetForegroundWindow()
     win32gui.ShowWindow(window, win32con.SW_MAXIMIZE)
     
